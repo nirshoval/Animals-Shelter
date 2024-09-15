@@ -2,6 +2,10 @@ body{
     background-color: forestgreen;
     color: white;
     text-align: center;
+    margin: 0;
+    padding-bottom: 50px; /* Prevents content from overlapping with the footer */
+    position: relative;
+    min-height: 91.5vh;
 }
 
 .animals-list{
@@ -12,18 +16,20 @@ body{
 ul {
     color: black;
     font-weight: bold;
-    font-size: x-large;
+    font-size: large;
 }
 
 .home-image{
     width: 250px;
     border: 1px solid black;
+    margin-bottom: 10px;
 
 
 }
 
 .footer{
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
 }
