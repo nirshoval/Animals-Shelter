@@ -1,11 +1,12 @@
 body{
     background-color: forestgreen;
     color: white;
-    /* text-align: center; */
+    text-align: center;
 }
 
-h1 , h2 {
-    text-align: center;
+.animals-list{
+    display: flex;
+    justify-content: center;
 }
 
 ul {
